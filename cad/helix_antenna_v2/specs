@@ -1,0 +1,61 @@
+(speed_of_light/(1.7giga))
+		wavelength 176.349 mm 
+
+following seems to match with the openEMS
+https://jcoppens.com/ant/helix/calc.en.php
+
+
+
+The previous design with 25mm pitch had the correct gain and directivity, 
+but this doesn't match the impedance inherently.
+
+Thus whatever I do, i'll need a matching circuit nevertheless.
+
+
+I want to see if its possible to make a double helix antenna. Where a smaller antenna is inside the large one.
+
+
+//////////// PARAMETER EFFECTS TO S PARAMETER
+Winding spacing smaller does:
+	S-paramter shifts higher frequency, and magnitude -db goes lower.
+	Directivity increase, 
+
+Winding count INCREASE does:
+	shifts S param higer freq? changes a LOT
+	directivity lessens, sidelobes up
+
+Ground plane radious LARGER does:
+	Sparam (2.06ghz @ -4.573 -> 2.06 * -4.556)
+	Gain - slight Increase, sidelobes more flattened
+	Impedance - increases, min-max delta smaller 
+
+Wire diameter THICKER does:
+
+	10.3 dBi -> 10.4 dbi (gain) little effect
+	s parameter shift lower freq, less DEEP magnitude -db (goes higher)
+
+Feed stub height
+
+HRPT helix specs (again)
+
+Center freq: 	1.7 GHz		L-Band
+Coil diameter: 56mm (wavelength/pi)
+Wire diameter: 2.7mm
+Turns 5.5
+Spacing 36mm  (lambda*0.2045) 
+stub height 4mm
+ground plane radius 65mm
+
+
+S BAND scientific sats (speed_of_light/(2.2giga))/pi
+
+Center freq: 	2.2 GHz		S-Band
+Coil diameter: 43.4 mm  (wavelength/pi)
+Wire diameter: 2.7mm
+Turns 4.242
+Spacing 0.02918 mm
+stub height 4mm
+ground plane radius 65mm
+
+
+

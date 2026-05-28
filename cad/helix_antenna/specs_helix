@@ -1,0 +1,10 @@
+wire diameter in center 56mm
+offset from reflector about 4mm
+
+pitch is 25.00 mm
+turn around 5.5
+
+reflector plate 130x130 mm approx
+
+MATCH: too high, the main S11 dip was around 2.0 GHz.
+
