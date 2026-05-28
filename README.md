@@ -25,8 +25,17 @@ In case you want to experiment yourself, install OpenEMS and CSXCAD on your syst
 
 OpenEMS installation can be found at:<br> [www.docs.openems.de](https://docs.openems.de/).
 
-
 Then you can just run the python scripts in the same manner as the tutorial scripts of OpenEMS.
+
+
+## Licensing
+
+This repository uses dual licensing:
+
+- **Hardware design files** (CAD, schematics) — [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](LICENSE) (CERN-OHL-S-2)
+- **Simulation scripts** (`scripts/`) — [GNU General Public License v3.0 or later](scripts/LICENSE) (GPL-3.0-or-later)
+
+The simulation scripts are based on the [OpenEMS Helical Antenna Tutorial](https://github.com/thliebig/openEMS) by Thorsten Liebig, which is also GPL-3.0-or-later. Original portions are Copyright (c) 2015-2025 Thorsten Liebig.
 
 
 ## Contact

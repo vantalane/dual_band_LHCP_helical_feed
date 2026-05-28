@@ -1,0 +1,12 @@
+SPDX-License-Identifier: GPL-3.0-or-later
+
+The simulation scripts in this directory are licensed under the
+GNU General Public License v3.0 or later.
+
+Copyright (c) 2026 Mete Han Keskin <mete@kestech.net>
+Portions Copyright (c) 2015-2025 Thorsten Liebig <thorsten.liebig@gmx.de>
+
+These scripts are based on and derived from the OpenEMS Helical Antenna Tutorial:
+https://github.com/thliebig/openEMS
+
+Full license text: https://www.gnu.org/licenses/gpl-3.0.txt
